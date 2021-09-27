@@ -1,5 +1,5 @@
 ## Introduction
-Quantitative trading is a revolutionary tools for the financial area. People could use it to trade efficiently and accurately. In order to understand the power behind that, we could simulate it by using the historical trading data from Yahoo finance. We could build our portfolio by using different technique indicators and use the dicision-tree model to fit the data and predict the action we should made at certain spot. In the end, we will visualize our profit and compare to the benchmark.
+Quantitative trading is a revolutionary tools for the financial area. People could use it to trade efficiently and accurately. In order to understand the power behind that, we could simulate it by using the historical trading data from Yahoo finance. We could build our portfolio by using different technique indicators and use the dicision-tree model to fit the data and predict the action we should made at certain spot. In the end, we will visualize our profit and compare to the benchmark. Data/csv I used in this project have all imported to data_excel folder. Feel free to download and use them.
 
 ## Dependencies
 - Numpy
