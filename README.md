@@ -19,10 +19,9 @@ There are lots of well-established technical indicators online which could help 
 Creating a portfolio is not a easy thing. It is pretty hard for a beginner like me to set each coefficients correctly. Like the plot showed above, I didn't set the limit of volume for short selling/long stock. We can see that my portfolio was under deficit in almost one year. This is certainly unacceptable for most of the investors. However, thanks for the data science. We could use various kinds of model to help us made the right decision on trading. I wrote a simple version of decision tree model by using the numpy package. 
 
 ### Predict the action by using the decision-tree
-By using the decision-tree model, we could predict whether we should sell/buy or hold.
+By using the decision-tree model, we could predict whether we should sell/buy or hold more accurately. Here is the performance of my portfolio after deploy the decision-tree.
 
 <img src='after_tree.png'>
 
-## Conclusion
-We might see a big 
+We could see a big improvement by comparing to the previous plot.Since we avoid over-trading and decrease the error that we made about trading, our portfolio become better and more accurately. However, we could not simply use this method to do the real-life quantitative trading since most of the method/indicators from online are overused. We might lost a lot of money by using the optimal portfolio we built from the histroical data
 
