@@ -11,7 +11,8 @@ Quantitative trading is a revolutionary tools for the financial area. People cou
 Yahoo finance is a good source to download the trading data. All we need to do is find the company we like and click the download button. Then, we could use the pandas to get the data import to python. We will use SPY as a benchmark to get trading days, and settled a series of handwritten function to extract the metric from csv such as Open, Close, Adj Close and Volume. We will use those data to construct our own portfolio.
 
 ### Build your own portfolio 
-There are lots of well-established technical indicators online which could help us to build the portfolio. I used several technical indicators such as obv,to construct 
+There are lots of well-established technical indicators online which could help us to build the portfolio. I used several technical indicators in here such as On-Balance Volume (OBV), Stochastic Oscillator, Accumulation/Distribution Indicator (A/D), Price Rate Of Change Indicator (ROC).
+
 <img src='without_tree.png'>
 
 ### How could we improve it?
